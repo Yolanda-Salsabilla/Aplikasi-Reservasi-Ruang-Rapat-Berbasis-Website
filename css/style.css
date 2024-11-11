@@ -1,0 +1,301 @@
+body{
+
+	background: url('') no-repeat top fixed;
+}
+
+#navigasi{
+	background-color: black;
+}
+
+#background{
+	background-image: url('../img/back-table.jpg');
+}
+
+#background2{
+	margin-top:10px;
+	margin-right:20px;
+	background-image: url('../img/back.jpg');
+}
+#tabel tr th {
+	background-color:white;
+	border:3px solid;
+	text-align:center;
+	color:#000000;
+}
+
+#tabel tr td{
+	background-color:white;
+	border:3px solid;
+	text-align:center;
+	color:#000000;
+}
+	
+#tabeljadwal tr th{
+	border:3px solid;
+}
+
+#tabeljadwal tr td{
+	border:3px solid;
+}	
+#text{
+	color:#ffffff;
+}
+
+#navigasi li a {
+	color:#06BBCC;;
+}
+
+#footer {
+	background-color: black;
+	color:white;
+}
+
+#footer li a{
+	color:#ffffff;
+}
+
+#modal1{
+	background: url('../img/back-modal.jpg');
+	border-radius: 40px 40px 40px 40px !important;
+	color:#ffffff;
+
+}
+
+
+#modal1 button {
+	background:#414141;
+	color:#ffffff;
+}
+
+
+#modal1 a{
+	align:center;
+}
+#modal13{
+	background: url('../img/back-modal.jpg');
+	border-radius: 40px 40px 40px 40px !important;
+	color:#ffffff;
+
+}
+
+#modal13 h4 {
+	color:#ffffff;
+}
+
+
+#moda13 button {
+	background:#000000;
+	color:#ffffff;
+}
+
+#modal13{
+	background: url('../img/back-modal.jpg');
+	border-radius: 40px 40px 40px 40px !important;
+	color:#ffffff;
+
+}
+
+#modal13 h4 {
+	color:#ffffff;
+}
+
+
+#modal13 button {
+	background:#000000;
+	color:#ffffff;
+}
+
+
+#date{
+	text-align: left;
+}
+
+#pesan{
+	color : #f44336 !important;
+	font-family: "Times New Roman"!important;
+}
+#mobile-demo{
+		background-image: url('../img/back-table.jpg');
+}
+#mobile-demo li a{
+	color:#000000;
+}
+#search-mobile{
+	box-shadow: inset 0 0 10px #ffffff !important;
+}
+#judul{
+	font-family: GillSans, Calibri, Trebuchet, sans-serif !important;
+}
+
+.card-title{
+	background-color: rgba(255,255,255,0.52);
+	color: black !important;
+}
+
+#gbr_tips_show{
+	width: 50%;
+}
+
+#content2 {
+	text-align: center;
+}
+
+#form{
+	background-color: rgba(255,255,255,0.5);
+	background-color : #ffffff !important;
+	padding : 10px 10px 10px 10px;
+	border-radius : 20px 20px 20px  20px;
+}
+	
+#edit-permintaan{
+		margin-top:20px;
+		color:#000000;
+}
+
+
+#dropdown1 li a{
+	color:black;
+}
+
+#dropdown3 li a{
+	color:black;
+}
+
+#logo-tulisan{
+	font-family:prototype;
+	margin-top:120px;
+	margin-left:200px;
+}
+
+#login{
+	align:center;
+	margin-top:180px;
+	background-image: url('../img/back.jpg');
+}
+
+#cetak{
+	margin-top:130px ;
+	background-image: url('../img/back.jpg');
+}
+
+#coba{
+	margin-top:40px;
+}
+#coba h3{
+	color:black;
+	font-family:prototype;
+}
+
+#font{
+	margin-top:30px;
+	color:black;
+	font-family:prototype;
+	
+}
+
+#tamu{
+	margin-top:30px;
+}
+#bla{
+	background-color:black;
+}
+#backhead{
+	background: url('../img/back-modal.jpg');
+}
+
+
+#test{
+	width:100px;
+}
+/*** Navbar ***/
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar-light .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+.navbar-light .navbar-brand,
+.navbar-light a.btn {
+    height: 75px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--dark);
+    font-weight: 500;
+}
+
+.navbar-light.sticky-top {
+    top: -100px;
+    transition: .5s;
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .dropdown-menu.fade-down {
+        top: 100%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        transform: rotateX(0deg);
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+}
+
+
+
+
+.picker { outline: none; } /* Optional feature */
+/* Header - Day of the week */
+.picker__weekday-display { background-color: grey; }
+/* Body - Today info */
+.picker__date-display { background-color: grey; }
+.picker__today { color: grey; }
+.picker__clear { /* If you want to customize */ }
+.picker__close { color: grey; }
+
+
+.dropdown-content{
+	margin-top:60px;
+	border-radius:10px;
+}
+
